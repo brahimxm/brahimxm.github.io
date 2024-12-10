@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Best Performance Golden Limited - Your trusted partner in Civil Engineering, Construction, Procurement, and more.">
+  <meta name="keywords" content="Civil Engineering, Construction, Procurement, Oil & Gas, Printing, Borehole, Furniture, Computer Hardware, Agriculture">
+  <meta name="author" content="Best Performance Golden Limited">
+  <title>Best Performance Golden Limited</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+
+    /* Background Shapes */
+    .background {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .background::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 100%;
+      background: darkorange; /* Dark orange on the left */
+      clip-path: polygon(0 0, 100% 0, 0 100%); /* Triangle shape */
+    }
+
+    .background::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background: black; /* Black on the right */
+      clip-path: polygon(50% 0, 100% 0, 100% 100%, 25% 100%); /* Trapezium shape */
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+      min-height: 100vh; /* Ensures the content takes full height */
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #fff;
+    }
+
+    header h2 {
+      font-size: 1.5rem;
+      color: #f4f4f4;
+    }
+
+    .contact-info,
+    .address {
+      margin: 1rem 0;
+      text-align: center;
+    }
+
+    .services ul {
+      padding: 0;
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 10px;
+    }
+
+    .services li {
+      margin: 0.5rem 0;
+      background: #fff;
+      padding: 0.5rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      color: #333;
+      text-align: center;
+    }
+
+    form {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      color: #333;
+    }
+
+    form label {
+      font-weight: bold;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+    }
+
+    form button {
+      display: inline-block;
+      background: #007bff;
+      color: #fff;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    form button:hover {
+      background: #0056b3;
+    }
+
+    @media (max-width: 768px) {
+      .services ul {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      }
+
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      header h2 {
+        font-size: 1.2rem;
+      }
+
+      form {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="background">
+    <div class="container">
+      <!-- Header Section -->
+      <header>
+        <p class="rc-number">RC: 1259500</p>
+        <h1>Best Performance</h1>
+        <h2>Golden Limited</h2>
+      </header>
+
+      <!-- Contact Information Section -->
+      <div class="contact-info">
+        <p><strong>Ibrahim Tajudeen Shola</strong></p>
+        <p>CHAIRMAN</p>
+        <p>08063194762, 08064584019</p>
+        <p>Email: <a href="mailto:info@bpglimited.com" aria-label="Email us">info@bpglimited.com</a></p>
+      </div>
+
+      <!-- Address Section -->
+      <div class="address">
+        <p>Suite 219, Maria Plaza Plot 1014, Soun Ajagungbade Road, Central Business District, Abuja.</p>
+        <p>No. 36, Ibrahim Taiwo Road, Ilorin, Kwara State.</p>
+        <p>No. 204, Legislative Quarters, Yidi Road, Ilorin, Kwara State.</p>
+      </div>
+
+      <!-- Services Section -->
+      <section class="services">
+        <h3>Our Services</h3>
+        <ul>
+          <li>Civil Engineering</li>
+          <li>Construction</li>
+          <li>Procurement</li>
+          <li>Oil & Gas</li>
+          <li>Printing</li>
+          <li>Borehole</li>
+          <li>Furniture</li>
+          <li>Computer Hardware, Software and Networking</li>
+          <li>Agriculture</li>
+          <li>Electrification</li>
+          <li>General Consultant</li>
+          <li>Environmental (General Cleaning Services)</li>
+          <li>Fabrics and Textiles</li>
+          <li>Water Factory</li>
+          <li>Commission Agent</li>
+          <li>Import & Exporter</li>
+        </ul>
+      </section>
+
+      <!-- Contact Form Section -->
+      <section>
+        <h3>Contact Us</h3>
+        <form action="https://formspree.io/f/mrbgvlyy" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+        
+      </section>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      alert('Form submitted successfully!');
+      document.getElementById('contactForm').reset();
+    });
+  </script>
+</body>
+</html>
